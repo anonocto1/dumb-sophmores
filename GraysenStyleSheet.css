@@ -1,0 +1,44 @@
+body {
+	background-color: blue;
+ 	font-family: 'Comic Sans MS', cursive;
+	font-size: 12pt;
+	color: #FDFD01; /*bright yellow for horrid reading*/
+	text-align: center; /*center for decent reading*/
+}
+h1 {
+	background-color: lightblue;
+	font-size:32pt;
+	padding: 5px 10px;
+	margin: 20px auto;
+	color:red;
+	text-align:center; /*centered text*/
+}
+h2 {
+	text-align: left;
+	background-color: purple;
+	color: green;
+}
+p { 
+	background-color: black;
+	font-family: Papyrus, "Palatino Linotype", Palatino, serif;
+	font-size: 12pt;
+}
+p.shrt{
+	display: inline-block;
+	color: green;
+	background-color: yellow;
+	width: 600px;
+	padding: 5px 10px;
+	margin: 10px 0;
+	text-align: center;
+	
+}
+.row {
+	display" flex;
+	gap: 20px;
+}
+li{
+	text-align: left;
+}
+a {
+}
